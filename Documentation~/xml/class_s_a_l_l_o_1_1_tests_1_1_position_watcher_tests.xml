@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::Tests::PositionWatcherTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1a87cf04754d4053fbb420a025872bc29c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SALLO.Tests.PositionWatcherTests.taskObject</definition>
+        <argsstring></argsstring>
+        <name>taskObject</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.taskObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="13" column="20" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aebe6747d05b87413960f8d7b3f93ee84" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_a_l_l_o_1_1_position_watcher" kindref="compound">PositionWatcher</ref></type>
+        <definition>PositionWatcher SALLO.Tests.PositionWatcherTests.watcher</definition>
+        <argsstring></argsstring>
+        <name>watcher</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.watcher</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="15" column="25" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1ac2bbf892c0f97db6811a778266f14db4" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SALLO.Tests.PositionWatcherTests.observer</definition>
+        <argsstring></argsstring>
+        <name>observer</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.observer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="17" column="19" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aa6051386ae75a13b82efd44b587ea9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.PositionWatcherTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.SetUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="21" column="21" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="21" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1a02f37b930d76a4a2f1be27b58200fc3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.PositionWatcherTests.CheckAngle_TestAndObserverAngles_trueIfInRange</definition>
+        <argsstring>([Values(45f)] float observerAngle, [Values(45f, 0f)] float testAngle, [Random(-360f, 360f, 1)] float observerXrot, [Random(-360f, 360f, 1)] float observerZrot, [Values(10)] int frameLimit)</argsstring>
+        <name>CheckAngle_TestAndObserverAngles_trueIfInRange</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.CheckAngle_TestAndObserverAngles_trueIfInRange</qualifiedname>
+        <param>
+          <attributes>[Values(45f)]</attributes>
+          <type>float</type>
+          <declname>observerAngle</declname>
+        </param>
+        <param>
+          <attributes>[Values(45f, 0f)]</attributes>
+          <type>float</type>
+          <declname>testAngle</declname>
+        </param>
+        <param>
+          <attributes>[Random(-360f, 360f, 1)]</attributes>
+          <type>float</type>
+          <declname>observerXrot</declname>
+        </param>
+        <param>
+          <attributes>[Random(-360f, 360f, 1)]</attributes>
+          <type>float</type>
+          <declname>observerZrot</declname>
+        </param>
+        <param>
+          <attributes>[Values(10)]</attributes>
+          <type>int</type>
+          <declname>frameLimit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="43" column="28" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="43" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aac299f6471017ca5338c59ff87e78498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.PositionWatcherTests.IsKeepingPosition_rotateObserver_NotKept</definition>
+        <argsstring>([Random(-360f, 360f, 2)]float startAngle, [Random(-360f, 360f, 2)] float endAngle)</argsstring>
+        <name>IsKeepingPosition_rotateObserver_NotKept</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.IsKeepingPosition_rotateObserver_NotKept</qualifiedname>
+        <param>
+          <attributes>[Random(-360f, 360f, 2)]</attributes>
+          <type>float</type>
+          <declname>startAngle</declname>
+        </param>
+        <param>
+          <attributes>[Random(-360f, 360f, 2)]</attributes>
+          <type>float</type>
+          <declname>endAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="95" column="28" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1a87b13605ac9ae19fb062200e2705f517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.PositionWatcherTests.IsKeepingPosition_rotateObserver_Kept</definition>
+        <argsstring>([Random(-360f, 360f, 2)] float startAngle, [Random(-360f, 360f, 2)] float endAngle)</argsstring>
+        <name>IsKeepingPosition_rotateObserver_Kept</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.IsKeepingPosition_rotateObserver_Kept</qualifiedname>
+        <param>
+          <attributes>[Random(-360f, 360f, 2)]</attributes>
+          <type>float</type>
+          <declname>startAngle</declname>
+        </param>
+        <param>
+          <attributes>[Random(-360f, 360f, 2)]</attributes>
+          <type>float</type>
+          <declname>endAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="102" column="28" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="102" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aa1dec041a182bd5a0330f85206fcb263" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.PositionWatcherTests.IsKeepingPosition_rotateObserver</definition>
+        <argsstring>(float startAngle, float endAngle, float tolerance)</argsstring>
+        <name>IsKeepingPosition_rotateObserver</name>
+        <qualifiedname>SALLO.Tests.PositionWatcherTests.IsKeepingPosition_rotateObserver</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>startAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>endAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="71" column="29" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="71" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.Tests.PositionWatcherTests</label>
+        <link refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>watcher</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>SALLO.CylindricalCoordinates</label>
+        <link refid="class_s_a_l_l_o_1_1_cylindrical_coordinates"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SALLO.PitchController</label>
+        <link refid="class_s_a_l_l_o_1_1_pitch_controller"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SALLO.PositionWatcher</label>
+        <link refid="class_s_a_l_l_o_1_1_position_watcher"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>pc</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SALLO.Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tests/Runtime/Positioning/PositionWatcherTests.cs" line="10" column="11" bodyfile="Tests/Runtime/Positioning/PositionWatcherTests.cs" bodystart="11" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1a02f37b930d76a4a2f1be27b58200fc3d" prot="public" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>CheckAngle_TestAndObserverAngles_trueIfInRange</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aa1dec041a182bd5a0330f85206fcb263" prot="private" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>IsKeepingPosition_rotateObserver</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1a87b13605ac9ae19fb062200e2705f517" prot="public" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>IsKeepingPosition_rotateObserver_Kept</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aac299f6471017ca5338c59ff87e78498" prot="public" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>IsKeepingPosition_rotateObserver_NotKept</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1ac2bbf892c0f97db6811a778266f14db4" prot="private" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>observer</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aa6051386ae75a13b82efd44b587ea9c0" prot="public" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>SetUp</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1a87cf04754d4053fbb420a025872bc29c" prot="private" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>taskObject</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_position_watcher_tests_1aebe6747d05b87413960f8d7b3f93ee84" prot="private" virt="non-virtual"><scope>SALLO::Tests::PositionWatcherTests</scope><name>watcher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

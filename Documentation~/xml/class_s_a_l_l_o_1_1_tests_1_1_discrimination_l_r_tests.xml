@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::Tests::DiscriminationLRTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a93e063a9fbec49dfd149025d876f1d16" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SALLO.Tests.DiscriminationLRTests.observer</definition>
+        <argsstring></argsstring>
+        <name>observer</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.observer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="11" column="19" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a203c3a64803d8f6d9c3a0c281f157c8f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SALLO.Tests.DiscriminationLRTests.taskObject</definition>
+        <argsstring></argsstring>
+        <name>taskObject</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.taskObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="13" column="20" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1aa830f176128ea17e1a15ac132a708a79" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_a_l_l_o_1_1_discrimination_l_r" kindref="compound">DiscriminationLR</ref></type>
+        <definition>DiscriminationLR SALLO.Tests.DiscriminationLRTests.task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="14" column="26" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a0239dc2f8a6186f64a5872b61e898612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.DiscriminationLRTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.SetUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="18" column="21" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="18" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a3aa406f5b7359182cad8f2c9b697f1bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.DiscriminationLRTests.Run_triggerDuringSequence_ignore</definition>
+        <argsstring>()</argsstring>
+        <name>Run_triggerDuringSequence_ignore</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.Run_triggerDuringSequence_ignore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="33" column="28" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="33" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a839c9c9c0b87beb7c70245b64bf38388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.DiscriminationLRTests.Run_triggerAfterSequence_collect</definition>
+        <argsstring>()</argsstring>
+        <name>Run_triggerAfterSequence_collect</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.Run_triggerAfterSequence_collect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="48" column="28" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a2ec48a6827c83b03e382e0cbdada05b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.DiscriminationLRTests.PositionCheckSetUp_InPosition_StartSequence</definition>
+        <argsstring>()</argsstring>
+        <name>PositionCheckSetUp_InPosition_StartSequence</name>
+        <qualifiedname>SALLO.Tests.DiscriminationLRTests.PositionCheckSetUp_InPosition_StartSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="63" column="28" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="63" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="3">
+        <label>N_AFC</label>
+        <link refid="class_s_a_l_l_o_1_1_n___a_f_c"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>SALLO.Tests.DiscriminationLRTests</label>
+        <link refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SALLO.CylindricalCoordinates</label>
+        <link refid="class_s_a_l_l_o_1_1_cylindrical_coordinates"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SALLO.DiscriminationLR</label>
+        <link refid="class_s_a_l_l_o_1_1_discrimination_l_r"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>StartingPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>SALLO.PitchController</label>
+        <link refid="class_s_a_l_l_o_1_1_pitch_controller"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SALLO.PositionWatcher</label>
+        <link refid="class_s_a_l_l_o_1_1_position_watcher"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>pc</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>SALLO.Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tests/Runtime/Tasks/DiscriminationLRTests.cs" line="9" column="11" bodyfile="Tests/Runtime/Tasks/DiscriminationLRTests.cs" bodystart="10" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a93e063a9fbec49dfd149025d876f1d16" prot="private" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>observer</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a2ec48a6827c83b03e382e0cbdada05b6" prot="public" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>PositionCheckSetUp_InPosition_StartSequence</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a839c9c9c0b87beb7c70245b64bf38388" prot="public" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>Run_triggerAfterSequence_collect</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a3aa406f5b7359182cad8f2c9b697f1bf" prot="public" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>Run_triggerDuringSequence_ignore</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a0239dc2f8a6186f64a5872b61e898612" prot="public" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>SetUp</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1aa830f176128ea17e1a15ac132a708a79" prot="private" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>task</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_discrimination_l_r_tests_1a203c3a64803d8f6d9c3a0c281f157c8f" prot="private" virt="non-virtual"><scope>SALLO::Tests::DiscriminationLRTests</scope><name>taskObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

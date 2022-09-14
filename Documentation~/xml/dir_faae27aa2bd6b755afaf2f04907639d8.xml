@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_faae27aa2bd6b755afaf2f04907639d8" kind="dir">
+    <compoundname>Scripts/Editor/Positioning</compoundname>
+    <innerfile refid="_array_placer_editor_8cs">ArrayPlacerEditor.cs</innerfile>
+    <innerfile refid="_cylindrical_coordinates_editor_8cs">CylindricalCoordinatesEditor.cs</innerfile>
+    <innerfile refid="_recenterer_editor_8cs">RecentererEditor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Editor/Positioning/"/>
+  </compounddef>
+</doxygen>

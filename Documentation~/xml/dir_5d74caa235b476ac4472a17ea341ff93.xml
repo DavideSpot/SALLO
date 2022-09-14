@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_5d74caa235b476ac4472a17ea341ff93" kind="dir">
+    <compoundname>Tests/Editor/Tasks</compoundname>
+    <innerfile refid="_tasks_tests__prefabs_8cs">TasksTests_prefabs.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tests/Editor/Tasks/"/>
+  </compounddef>
+</doxygen>

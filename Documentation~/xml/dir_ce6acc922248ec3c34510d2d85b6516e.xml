@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_ce6acc922248ec3c34510d2d85b6516e" kind="dir">
+    <compoundname>Scripts/Runtime/Tasks/Discrimination</compoundname>
+    <innerfile refid="_bisection_8cs">Bisection.cs</innerfile>
+    <innerfile refid="_discrimination_l_r_8cs">DiscriminationLR.cs</innerfile>
+    <innerfile refid="_n___a_f_c_8cs">N_AFC.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Runtime/Tasks/Discrimination/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::Tests::SensoryComponentsExtensionsTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1aae0c0cb4c4949fbc7ec57671ca23af4f" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SALLO.Tests.SensoryComponentsExtensionsTests.task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <qualifiedname>SALLO.Tests.SensoryComponentsExtensionsTests.task</qualifiedname>
+        <initializer>= new GameObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" line="12" column="20" bodyfile="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a03b3bcecea89963f541629ca4403721a" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SALLO.Tests.SensoryComponentsExtensionsTests.observer</definition>
+        <argsstring></argsstring>
+        <name>observer</name>
+        <qualifiedname>SALLO.Tests.SensoryComponentsExtensionsTests.observer</qualifiedname>
+        <initializer>= new GameObject()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" line="13" column="20" bodyfile="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a08bf1ea4b9d106edfb7600cd3da43cb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.SensoryComponentsExtensionsTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <qualifiedname>SALLO.Tests.SensoryComponentsExtensionsTests.SetUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" line="16" column="21" bodyfile="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a141d563ac2f129c490856c56bfa47953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.SensoryComponentsExtensionsTests.Visual_FalseRootTrueChild_disableRootRenderersOnly</definition>
+        <argsstring>()</argsstring>
+        <name>Visual_FalseRootTrueChild_disableRootRenderersOnly</name>
+        <qualifiedname>SALLO.Tests.SensoryComponentsExtensionsTests.Visual_FalseRootTrueChild_disableRootRenderersOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" line="26" column="21" bodyfile="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" bodystart="26" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a97f444c387b96d033ffe5e26b38f232a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.SensoryComponentsExtensionsTests.Acoustic_FalseRootTrueChild_disableRootRenderersOnly</definition>
+        <argsstring>()</argsstring>
+        <name>Acoustic_FalseRootTrueChild_disableRootRenderersOnly</name>
+        <qualifiedname>SALLO.Tests.SensoryComponentsExtensionsTests.Acoustic_FalseRootTrueChild_disableRootRenderersOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" line="39" column="21" bodyfile="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" bodystart="39" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" line="10" column="11" bodyfile="Tests/Editor/MISC/SensoryComponentsExtensionsTests.cs" bodystart="11" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a97f444c387b96d033ffe5e26b38f232a" prot="public" virt="non-virtual"><scope>SALLO::Tests::SensoryComponentsExtensionsTests</scope><name>Acoustic_FalseRootTrueChild_disableRootRenderersOnly</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a03b3bcecea89963f541629ca4403721a" prot="private" virt="non-virtual"><scope>SALLO::Tests::SensoryComponentsExtensionsTests</scope><name>observer</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a08bf1ea4b9d106edfb7600cd3da43cb4" prot="public" virt="non-virtual"><scope>SALLO::Tests::SensoryComponentsExtensionsTests</scope><name>SetUp</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1aae0c0cb4c4949fbc7ec57671ca23af4f" prot="private" virt="non-virtual"><scope>SALLO::Tests::SensoryComponentsExtensionsTests</scope><name>task</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_sensory_components_extensions_tests_1a141d563ac2f129c490856c56bfa47953" prot="public" virt="non-virtual"><scope>SALLO::Tests::SensoryComponentsExtensionsTests</scope><name>Visual_FalseRootTrueChild_disableRootRenderersOnly</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

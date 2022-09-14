@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_constant_stimuli" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::ConstantStimuli</compoundname>
+    <basecompoundref refid="class_s_a_l_l_o_1_1_psy_method" prot="public" virt="non-virtual">SALLO.PsyMethod</basecompoundref>
+    <briefdescription>
+<para><bold>Psychophysical method</bold> component. Implements the Constant Stimuli method.  </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Instantiable class, direct implementation of the base abstract class <ref refid="class_s_a_l_l_o_1_1_psy_method" kindref="compound">PsyMethod</ref> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PsyMethod</label>
+        <link refid="class_s_a_l_l_o_1_1_psy_method"/>
+      </node>
+      <node id="1">
+        <label>SALLO.ConstantStimuli</label>
+        <link refid="class_s_a_l_l_o_1_1_constant_stimuli"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PsyMethod</label>
+        <link refid="class_s_a_l_l_o_1_1_psy_method"/>
+      </node>
+      <node id="1">
+        <label>SALLO.ConstantStimuli</label>
+        <link refid="class_s_a_l_l_o_1_1_constant_stimuli"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Runtime/PsychophysicalMethods/ConstantStimuli.cs" line="13" column="11" bodyfile="Scripts/Runtime/PsychophysicalMethods/ConstantStimuli.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_psy_method_1abd2bdd640d7e1a8f8f35df59c11d8316" prot="public" virt="non-virtual"><scope>SALLO::ConstantStimuli</scope><name>GetTrialSequence</name></member>
+      <member refid="class_s_a_l_l_o_1_1_psy_method_1aa728a59bb84eb185653e3fa45270a834" prot="public" virt="non-virtual"><scope>SALLO::ConstantStimuli</scope><name>testingAngles</name></member>
+      <member refid="class_s_a_l_l_o_1_1_psy_method_1a117b56533785d1dfa33719da8c93f2ab" prot="public" virt="non-virtual"><scope>SALLO::ConstantStimuli</scope><name>testingTrials</name></member>
+      <member refid="class_s_a_l_l_o_1_1_psy_method_1a33dfb6f99671f28b374549e5aa955c4a" prot="public" virt="non-virtual"><scope>SALLO::ConstantStimuli</scope><name>TrialSequence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

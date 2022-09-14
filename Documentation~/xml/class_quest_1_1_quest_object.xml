@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_quest_1_1_quest_object" kind="class" language="Python" prot="public">
+    <compoundname>Quest::QuestObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1ad61f8498be317b065413ae2fdd2cd5fd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::updatePdf</definition>
+        <argsstring></argsstring>
+        <name>updatePdf</name>
+        <qualifiedname>Quest.QuestObject.updatePdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="126" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1aa1a891116b0cb4a5e487ac2a9efa1500" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::warnPdf</definition>
+        <argsstring></argsstring>
+        <name>warnPdf</name>
+        <qualifiedname>Quest.QuestObject.warnPdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="127" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1abe42f9e458b0516f1c0f4fb1a1963d25" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::normalizePdf</definition>
+        <argsstring></argsstring>
+        <name>normalizePdf</name>
+        <qualifiedname>Quest.QuestObject.normalizePdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="128" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1aaaa09daa2ea22ea5052a5ab472ce98fd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::tGuess</definition>
+        <argsstring></argsstring>
+        <name>tGuess</name>
+        <qualifiedname>Quest.QuestObject.tGuess</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="129" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a087bd68171144ec210c9f0bdb3817a81" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::tGuessSd</definition>
+        <argsstring></argsstring>
+        <name>tGuessSd</name>
+        <qualifiedname>Quest.QuestObject.tGuessSd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="130" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a13fb962432b62054173b8ff651c29050" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::pThreshold</definition>
+        <argsstring></argsstring>
+        <name>pThreshold</name>
+        <qualifiedname>Quest.QuestObject.pThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="131" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a2e4e4b97ef509bc587e23bcf1d0c863b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <qualifiedname>Quest.QuestObject.beta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="132" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1ad3db8dff2049e75a4e3dcd027af1d0f3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::delta</definition>
+        <argsstring></argsstring>
+        <name>delta</name>
+        <qualifiedname>Quest.QuestObject.delta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="133" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a32f88b815977b36753e8e0174ef01d3c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <qualifiedname>Quest.QuestObject.gamma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="134" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a3598c679def3239223f885ce176392ee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::grain</definition>
+        <argsstring></argsstring>
+        <name>grain</name>
+        <qualifiedname>Quest.QuestObject.grain</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="135" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a3afee9a1ba525083483a2f63a52c35d7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::dim</definition>
+        <argsstring></argsstring>
+        <name>dim</name>
+        <qualifiedname>Quest.QuestObject.dim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="136" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1ab9a61146f44fa041a0236d04b125b6cb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <qualifiedname>Quest.QuestObject.i</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="296" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a6bcd7b1d4434d308c90992f7d66a5b3f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Quest.QuestObject.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="297" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1afbc75f9ab96666d5277a8bca003f7fa6" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::pdf</definition>
+        <argsstring></argsstring>
+        <name>pdf</name>
+        <qualifiedname>Quest.QuestObject.pdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="298" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1aafe79302aac250603422c48c096f11a0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::x2</definition>
+        <argsstring></argsstring>
+        <name>x2</name>
+        <qualifiedname>Quest.QuestObject.x2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="301" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1aa6d887bd4c739b0705c59cc0ce863b0b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::p2</definition>
+        <argsstring></argsstring>
+        <name>p2</name>
+        <qualifiedname>Quest.QuestObject.p2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="302" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a432564e992d5158bafdc395ebc8dbfb0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::xThreshold</definition>
+        <argsstring></argsstring>
+        <name>xThreshold</name>
+        <qualifiedname>Quest.QuestObject.xThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="310" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1ac2754aa7cba94f5f81266f6a64cd61fd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::s2</definition>
+        <argsstring></argsstring>
+        <name>s2</name>
+        <qualifiedname>Quest.QuestObject.s2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="314" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a64ff88070c4afe11f0d792dc01500526" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::intensity</definition>
+        <argsstring></argsstring>
+        <name>intensity</name>
+        <qualifiedname>Quest.QuestObject.intensity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="316" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1abd79faf2d617f4eb40592135bdbb5252" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::response</definition>
+        <argsstring></argsstring>
+        <name>response</name>
+        <qualifiedname>Quest.QuestObject.response</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="317" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_1_1_quest_object_1a3a4e06a5aaf79013c0f7047db4aeab4f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Quest.QuestObject::quantileOrder</definition>
+        <argsstring></argsstring>
+        <name>quantileOrder</name>
+        <qualifiedname>Quest.QuestObject.quantileOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="327" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1a3ba32c744503915e89dcd1a250f6c2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.__init__</definition>
+        <argsstring>(self, tGuess, tGuessSd, pThreshold, beta, delta, gamma, grain=0.01, range=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>Quest.QuestObject.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tGuess</type>
+          <defname>tGuess</defname>
+        </param>
+        <param>
+          <type>tGuessSd</type>
+          <defname>tGuessSd</defname>
+        </param>
+        <param>
+          <type>pThreshold</type>
+          <defname>pThreshold</defname>
+        </param>
+        <param>
+          <type>beta</type>
+          <defname>beta</defname>
+        </param>
+        <param>
+          <type>delta</type>
+          <defname>delta</defname>
+        </param>
+        <param>
+          <type>gamma</type>
+          <defname>gamma</defname>
+        </param>
+        <param>
+          <type>grain</type>
+          <defname>grain</defname>
+          <defval>0.01</defval>
+        </param>
+        <param>
+          <type>range</type>
+          <defname>range</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize Quest parameters.
+
+Create an instance of QuestObject with all the information
+necessary to measure threshold.
+
+This was converted from the Psychtoolbox&apos;s QuestCreate function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="110" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="110" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1ac30f955ac4904a6373bf28e390f49280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.beta_analysis</definition>
+        <argsstring>(self, stream=None)</argsstring>
+        <name>beta_analysis</name>
+        <qualifiedname>Quest.QuestObject.beta_analysis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>stream</type>
+          <defname>stream</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Analyze the quest function with beta as a free parameter.
+
+It returns the mean estimates of alpha (as logC) and
+beta. Gamma is left at whatever value the user fixed it at.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="139" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="139" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1ac363dcf2d511e823ac18455f1f7e22e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.mean</definition>
+        <argsstring>(self)</argsstring>
+        <name>mean</name>
+        <qualifiedname>Quest.QuestObject.mean</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Mean of Quest posterior pdf.
+
+Get the mean threshold estimate.
+
+This was converted from the Psychtoolbox&apos;s QuestMean function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="178" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="178" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1a4d01214e99fda568affe9e4be0185378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.mode</definition>
+        <argsstring>(self)</argsstring>
+        <name>mode</name>
+        <qualifiedname>Quest.QuestObject.mode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Mode of Quest posterior pdf.
+
+t,p=q.mode()
+&apos;t&apos; is the mode threshold estimate
+&apos;p&apos; is the value of the (unnormalized) pdf at t.
+
+This was converted from the Psychtoolbox&apos;s QuestMode function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="187" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="187" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1a797f1cdb282368a7d057182b7d455812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.p</definition>
+        <argsstring>(self, x)</argsstring>
+        <name>p</name>
+        <qualifiedname>Quest.QuestObject.p</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>x</type>
+          <defname>x</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>probability of correct response at intensity x.
+
+p=q.p(x)
+
+The probability of a correct (or yes) response at intensity x,
+assuming threshold is at x=0.
+
+This was converted from the Psychtoolbox&apos;s QuestP function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="201" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="201" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1a741c75708363e7f4f58c71415b58aa28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.pdf_at</definition>
+        <argsstring>(self, t)</argsstring>
+        <name>pdf_at</name>
+        <qualifiedname>Quest.QuestObject.pdf_at</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>t</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The (unnormalized) probability density of candidate threshold &apos;t&apos;.
+
+This was converted from the Psychtoolbox&apos;s QuestPdf function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="217" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="217" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1ab41a6dbd19983a4c890f311bf780115c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.quantile</definition>
+        <argsstring>(self, quantileOrder=None)</argsstring>
+        <name>quantile</name>
+        <qualifiedname>Quest.QuestObject.quantile</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>quantileOrder</type>
+          <defname>quantileOrder</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get Quest recommendation for next trial level.
+
+intensity=q.quantile([quantileOrder])
+
+Gets a quantile of the pdf in the struct q.  You may specify
+the desired quantileOrder, e.g. 0.5 for median, or, making two
+calls, 0.05 and 0.95 for a 90confidence interval.  If the
+&apos;quantileOrder&apos; argument is not supplied, then it&apos;s taken from
+the QuestObject instance. __init__() uses recompute() to
+compute the optimal quantileOrder and saves that in the
+QuestObject instance; this quantileOrder yields a quantile
+that is the most informative intensity for the next trial.
+
+This was converted from the Psychtoolbox&apos;s QuestQuantile function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="227" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="227" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1acfc0fa775247484b1180bbeaa072126c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.sd</definition>
+        <argsstring>(self)</argsstring>
+        <name>sd</name>
+        <qualifiedname>Quest.QuestObject.sd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Standard deviation of Quest posterior pdf.
+
+Get the sd of the threshold distribution.
+
+This was converted from the Psychtoolbox&apos;s QuestSd function.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="257" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="257" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1a4885e2b42cbd0490d6e8cfe9548613e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.simulate</definition>
+        <argsstring>(self, tTest, tActual)</argsstring>
+        <name>simulate</name>
+        <qualifiedname>Quest.QuestObject.simulate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>tTest</type>
+          <defname>tTest</defname>
+        </param>
+        <param>
+          <type>tActual</type>
+          <defname>tActual</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Simulate an observer with given Quest parameters.
+
+response=QuestSimulate(q,intensity,tActual)
+
+Simulate the response of an observer with threshold tActual.
+
+This was converted from the Psychtoolbox&apos;s QuestSimulate function.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="267" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="267" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1adfe14675a85e63b96a90a19b594d384d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.recompute</definition>
+        <argsstring>(self)</argsstring>
+        <name>recompute</name>
+        <qualifiedname>Quest.QuestObject.recompute</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Recompute the psychometric function &amp; pdf.
+
+Call this immediately after changing a parameter of the
+psychometric function. recompute() uses the specified
+parameters in &apos;self&apos; to recompute the psychometric
+function. It then uses the newly computed psychometric
+function and the history in self.intensity and self.response
+to recompute the pdf. (recompute() does nothing if q.updatePdf
+is False.)
+
+This was converted from the Psychtoolbox&apos;s QuestRecompute function.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="279" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="279" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_1_1_quest_object_1a79dd0cc0918d66875e767bd0ddfcd497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Quest.QuestObject.update</definition>
+        <argsstring>(self, intensity, response)</argsstring>
+        <name>update</name>
+        <qualifiedname>Quest.QuestObject.update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>intensity</type>
+          <defname>intensity</defname>
+        </param>
+        <param>
+          <type>response</type>
+          <defname>response</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Update Quest posterior pdf.
+
+Update self to reflect the results of this trial. The
+historical records self.intensity and self.response are always
+updated, but self.pdf is only updated if self.updatePdf is
+true. You can always call QuestRecompute to recreate q.pdf
+from scratch from the historical record.
+
+This was converted from the Psychtoolbox&apos;s QuestUpdate function.</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="351" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="351" bodyend="386"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Measure threshold using a Weibull psychometric function.
+
+Threshold &apos;t&apos; is measured on an abstract &apos;intensity&apos; scale, which
+usually corresponds to log10 contrast.
+
+The Weibull psychometric function:
+
+p2=delta*gamma+(1-delta)*(1-(1-gamma)*exp(-10**(beta*(x2+xThreshold))))
+
+where x represents log10 contrast relative to threshold. The
+Weibull function itself appears only in recompute(), which uses
+the specified parameter values in self to compute a psychometric
+function and store it in self. All the other methods simply use
+the psychometric function stored as instance
+variables. recompute() is called solely by __init__() and
+beta_analysis() (and possibly by a few user programs). Thus, if
+you prefer to use a different kind of psychometric function,
+called Foo, you need only subclass QuestObject, overriding
+__init__(), recompute(), and (if you need it) beta_analysis().
+
+instance variables:
+
+tGuess is your prior threshold estimate.
+
+tGuessSd is the standard deviation you assign to that guess.
+
+pThreshold is your threshold criterion expressed as probability of
+response==1. An intensity offset is introduced into the
+psychometric function so that threshold (i.e. the midpoint of the
+table) yields pThreshold.
+
+beta, delta, and gamma are the parameters of a Weibull
+psychometric function.
+
+beta controls the steepness of the psychometric
+function. Typically 3.5.
+
+delta is the fraction of trials on which the observer presses
+blindly.  Typically 0.01.
+
+gamma is the fraction of trials that will generate response 1 when
+intensity==-inf.
+
+grain is the quantization of the internal table. E.g. 0.01.
+
+range is the intensity difference between the largest and smallest
+intensity that the internal table can store. E.g. 5. This interval
+will be centered on the initial guess tGuess,
+i.e. [tGuess-range/2, tGuess+range/2].  QUEST assumes that
+intensities outside of this interval have zero prior probability,
+i.e. they are impossible.</verbatim> </para>
+    </detaileddescription>
+    <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" line="55" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/Quest.py" bodystart="55" bodyend="386"/>
+    <listofallmembers>
+      <member refid="class_quest_1_1_quest_object_1a3ba32c744503915e89dcd1a250f6c2eb" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>__init__</name></member>
+      <member refid="class_quest_1_1_quest_object_1a2e4e4b97ef509bc587e23bcf1d0c863b" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>beta</name></member>
+      <member refid="class_quest_1_1_quest_object_1ac30f955ac4904a6373bf28e390f49280" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>beta_analysis</name></member>
+      <member refid="class_quest_1_1_quest_object_1ad3db8dff2049e75a4e3dcd027af1d0f3" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>delta</name></member>
+      <member refid="class_quest_1_1_quest_object_1a3afee9a1ba525083483a2f63a52c35d7" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>dim</name></member>
+      <member refid="class_quest_1_1_quest_object_1a32f88b815977b36753e8e0174ef01d3c" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>gamma</name></member>
+      <member refid="class_quest_1_1_quest_object_1a3598c679def3239223f885ce176392ee" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>grain</name></member>
+      <member refid="class_quest_1_1_quest_object_1ab9a61146f44fa041a0236d04b125b6cb" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>i</name></member>
+      <member refid="class_quest_1_1_quest_object_1a64ff88070c4afe11f0d792dc01500526" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>intensity</name></member>
+      <member refid="class_quest_1_1_quest_object_1ac363dcf2d511e823ac18455f1f7e22e9" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>mean</name></member>
+      <member refid="class_quest_1_1_quest_object_1a4d01214e99fda568affe9e4be0185378" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>mode</name></member>
+      <member refid="class_quest_1_1_quest_object_1abe42f9e458b0516f1c0f4fb1a1963d25" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>normalizePdf</name></member>
+      <member refid="class_quest_1_1_quest_object_1a797f1cdb282368a7d057182b7d455812" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>p</name></member>
+      <member refid="class_quest_1_1_quest_object_1aa6d887bd4c739b0705c59cc0ce863b0b" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>p2</name></member>
+      <member refid="class_quest_1_1_quest_object_1afbc75f9ab96666d5277a8bca003f7fa6" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>pdf</name></member>
+      <member refid="class_quest_1_1_quest_object_1a741c75708363e7f4f58c71415b58aa28" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>pdf_at</name></member>
+      <member refid="class_quest_1_1_quest_object_1a13fb962432b62054173b8ff651c29050" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>pThreshold</name></member>
+      <member refid="class_quest_1_1_quest_object_1ab41a6dbd19983a4c890f311bf780115c" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>quantile</name></member>
+      <member refid="class_quest_1_1_quest_object_1a3a4e06a5aaf79013c0f7047db4aeab4f" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>quantileOrder</name></member>
+      <member refid="class_quest_1_1_quest_object_1adfe14675a85e63b96a90a19b594d384d" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>recompute</name></member>
+      <member refid="class_quest_1_1_quest_object_1abd79faf2d617f4eb40592135bdbb5252" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>response</name></member>
+      <member refid="class_quest_1_1_quest_object_1ac2754aa7cba94f5f81266f6a64cd61fd" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>s2</name></member>
+      <member refid="class_quest_1_1_quest_object_1acfc0fa775247484b1180bbeaa072126c" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>sd</name></member>
+      <member refid="class_quest_1_1_quest_object_1a4885e2b42cbd0490d6e8cfe9548613e2" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>simulate</name></member>
+      <member refid="class_quest_1_1_quest_object_1aaaa09daa2ea22ea5052a5ab472ce98fd" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>tGuess</name></member>
+      <member refid="class_quest_1_1_quest_object_1a087bd68171144ec210c9f0bdb3817a81" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>tGuessSd</name></member>
+      <member refid="class_quest_1_1_quest_object_1a79dd0cc0918d66875e767bd0ddfcd497" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>update</name></member>
+      <member refid="class_quest_1_1_quest_object_1ad61f8498be317b065413ae2fdd2cd5fd" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>updatePdf</name></member>
+      <member refid="class_quest_1_1_quest_object_1aa1a891116b0cb4a5e487ac2a9efa1500" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>warnPdf</name></member>
+      <member refid="class_quest_1_1_quest_object_1a6bcd7b1d4434d308c90992f7d66a5b3f" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>x</name></member>
+      <member refid="class_quest_1_1_quest_object_1aafe79302aac250603422c48c096f11a0" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>x2</name></member>
+      <member refid="class_quest_1_1_quest_object_1a432564e992d5158bafdc395ebc8dbfb0" prot="public" virt="non-virtual"><scope>Quest::QuestObject</scope><name>xThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

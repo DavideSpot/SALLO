@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::Tests::NeckProprioceptionTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1ae00cac68be458369e2b4b2abc41c8f59" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SALLO.Tests.NeckProprioceptionTests.observer</definition>
+        <argsstring></argsstring>
+        <name>observer</name>
+        <qualifiedname>SALLO.Tests.NeckProprioceptionTests.observer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="11" column="19" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1a06448fa6867edfb3b4340071a60d393a" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SALLO.Tests.NeckProprioceptionTests.taskObject</definition>
+        <argsstring></argsstring>
+        <name>taskObject</name>
+        <qualifiedname>SALLO.Tests.NeckProprioceptionTests.taskObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="13" column="20" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1aae07c2b76f6840bbe518e352528205f6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_a_l_l_o_1_1_neck_proprioception" kindref="compound">NeckProprioception</ref></type>
+        <definition>NeckProprioception SALLO.Tests.NeckProprioceptionTests.task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <qualifiedname>SALLO.Tests.NeckProprioceptionTests.task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="14" column="28" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1aa72f02a47ae91f5b857cd7e36d57b92a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.NeckProprioceptionTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <qualifiedname>SALLO.Tests.NeckProprioceptionTests.SetUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="18" column="21" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="18" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1ac82ccd58f8e7e96d11f97d4d3fc6829c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.NeckProprioceptionTests.FindStimulus_NotFound_onlyRunStarted</definition>
+        <argsstring>()</argsstring>
+        <name>FindStimulus_NotFound_onlyRunStarted</name>
+        <qualifiedname>SALLO.Tests.NeckProprioceptionTests.FindStimulus_NotFound_onlyRunStarted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="31" column="28" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="31" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1ab70481118e9f974358ae61fdd2a66296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.NeckProprioceptionTests.FindStimulus_Found_RunStartedAndFinished</definition>
+        <argsstring>()</argsstring>
+        <name>FindStimulus_Found_RunStartedAndFinished</name>
+        <qualifiedname>SALLO.Tests.NeckProprioceptionTests.FindStimulus_Found_RunStartedAndFinished</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="50" column="28" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="50" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.Tests.NeckProprioceptionTests</label>
+        <link refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>SALLO.CylindricalCoordinates</label>
+        <link refid="class_s_a_l_l_o_1_1_cylindrical_coordinates"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SALLO.NeckProprioception</label>
+        <link refid="class_s_a_l_l_o_1_1_neck_proprioception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>StartingPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>SALLO.PitchController</label>
+        <link refid="class_s_a_l_l_o_1_1_pitch_controller"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SALLO.PositionWatcher</label>
+        <link refid="class_s_a_l_l_o_1_1_position_watcher"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>pc</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SALLO.Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" line="9" column="11" bodyfile="Tests/Runtime/Tasks/NeckProprioceptionTests.cs" bodystart="10" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1ab70481118e9f974358ae61fdd2a66296" prot="public" virt="non-virtual"><scope>SALLO::Tests::NeckProprioceptionTests</scope><name>FindStimulus_Found_RunStartedAndFinished</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1ac82ccd58f8e7e96d11f97d4d3fc6829c" prot="public" virt="non-virtual"><scope>SALLO::Tests::NeckProprioceptionTests</scope><name>FindStimulus_NotFound_onlyRunStarted</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1ae00cac68be458369e2b4b2abc41c8f59" prot="private" virt="non-virtual"><scope>SALLO::Tests::NeckProprioceptionTests</scope><name>observer</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1aa72f02a47ae91f5b857cd7e36d57b92a" prot="public" virt="non-virtual"><scope>SALLO::Tests::NeckProprioceptionTests</scope><name>SetUp</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1aae07c2b76f6840bbe518e352528205f6" prot="private" virt="non-virtual"><scope>SALLO::Tests::NeckProprioceptionTests</scope><name>task</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_neck_proprioception_tests_1a06448fa6867edfb3b4340071a60d393a" prot="private" virt="non-virtual"><scope>SALLO::Tests::NeckProprioceptionTests</scope><name>taskObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

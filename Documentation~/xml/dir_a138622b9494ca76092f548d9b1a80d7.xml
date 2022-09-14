@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_a138622b9494ca76092f548d9b1a80d7" kind="dir">
+    <compoundname>Scripts/Runtime/Positioning</compoundname>
+    <innerdir refid="dir_ed70e514591ae429719aeec3e92b2e26">Scripts/Runtime/Positioning/Player_positioning</innerdir>
+    <innerdir refid="dir_e25f3be9706521dfb811678e58c496e9">Scripts/Runtime/Positioning/Polar_3d_coordinates</innerdir>
+    <innerdir refid="dir_ab010c438dd2b89de7f13e463e1724f1">Scripts/Runtime/Positioning/Stimuli_positioning</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Runtime/Positioning/"/>
+  </compounddef>
+</doxygen>
