@@ -1,0 +1,14 @@
+classes updated w/o versioning:
+
+ArrayPlacer
+Houser
+PositionWatcher
+PitchController
+Task e classi derivate
+
+
+classes created w7o versioning:
+
+DummyTask
+N_AFC - implemented answer collection for N-alternative forced-choice paradigms
+

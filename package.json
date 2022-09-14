@@ -1,0 +1,34 @@
+{
+  "name": "it.iit.sallo",
+  "version": "1.0.1",
+  "displayName": "SALLO",
+  "description": "this package contains a suite of tools for the assessment of low-level cues on orientation.\nIt aims to simplify the development of psychophysical experiments in virtual reality",
+  "unity": "2019.4",
+  "unityRelease": "34f1",
+  "documentationUrl": "file:./Documentation~/html/index.html",
+  "changelogUrl": "TODO",
+  "licensesUrl": "TODO",
+  "dependencies": {
+    "com.unity.scripting.python": "2.1.1-preview.1"
+  },
+  "keywords": [
+    "SALLO",
+    "psychophysics",
+    "spatial orientation",
+    "experiments"
+  ],
+  "author": {
+    "name": "Davide Esposito",
+    "company": "Unit for Visually Impaired People, Fondazione Istituto Italiano di Tecnologia",
+    "email": "spsdvd48@gmail.com",
+    "author url": "https://it.linkedin.com/in/davide-esposito-438116161",
+    "company url": "https://www.iit.it/web/unit-for-visually-impaired-people"
+  },
+  "samples": [
+	{
+		"displayName": "SALLO_UXF",
+		"description": "working example of how to run a desktop experiment using SALLO and UXF. See https://github.com/immersivecognition/unity-experiment-framework for more details about UXF.",
+		"path": "Samples~/SALLO_UXF"
+	}
+  ]
+}

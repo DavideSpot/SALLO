@@ -1,0 +1,21 @@
+{
+    "name": "it.iit.sallo.scripts.runtime",
+    "references": [
+        "GUID:abd0983879a76104092bd43f426472fc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.google.resonance.audio",
+            "expression": "0.0",
+            "define": "RESONANCEPLUGIN_ISPRESENT"
+        }
+    ],
+    "noEngineReferences": false
+}
