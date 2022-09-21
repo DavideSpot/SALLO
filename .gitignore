@@ -68,7 +68,6 @@ artifacts/
 *_p.c
 *_i.h
 *.ilk
-*.meta
 *.obj
 *.pch
 *.pdb
@@ -294,4 +293,6 @@ __pycache__/
 *.bckpy
 
 # backup files
-*.bak
+*.bak*
+# Unity meta files
+# *.meta # allowing them for package generation
