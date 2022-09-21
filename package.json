@@ -24,6 +24,13 @@
     "author url": "https://it.linkedin.com/in/davide-esposito-438116161",
     "company url": "https://www.iit.it/web/unit-for-visually-impaired-people"
   },
+  "files": [
+	"*.md",
+	"*.meta",
+	"*.asmdef",
+	"Samples~",
+	"Editor"
+  ],
   "samples": [
 	{
 		"displayName": "SALLO_UXF",
