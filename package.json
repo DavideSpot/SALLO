@@ -25,6 +25,7 @@
     "company url": "https://www.iit.it/web/unit-for-visually-impaired-people"
   },
   "files": [
+	"*.meta",
 	"Samples~"
   ],
   "samples": [
