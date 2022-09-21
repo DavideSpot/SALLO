@@ -1,3 +1,21 @@
+/*  Copyright (C) 2022 Unit for Visually Impaired People (UVIP) - Fondazione Istituto Italiano di Tecnologia (IIT)
+    Author: Davide Esposito
+    email: davide.esposito@iit.it | spsdvd48@gmail.com
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +26,11 @@ using SALLO;
 
 public static class ListExtender
 {
-    //extend List<int> to get elements' sum
+    /// <summary>
+    /// extend List<int> to get elements' sum
+    /// </summary>
+    /// <param name="L">the caller list</param>
+    /// <returns>the sum of the items in the list</returns>
     public static int Sum(this List<int> L)
     {
         int sum = 0;
@@ -19,7 +41,7 @@ public static class ListExtender
         return sum;
     }
 }
-//TODO: find a way to abstract the experiment controller from the list of parameters for each task
+
 public class ExperimentController : MonoBehaviour
 {
     private Session session;
@@ -151,11 +173,7 @@ public class ExperimentController : MonoBehaviour
 
     void StartTrial()
     {
-        //if (session.NextTrial.numberInBlock == 1)
-        //{
-        //    Debug.Log("Starting block n° " + session.NextTrial.block.number.ToString());
-        //    B.onBlockBegin?.Invoke(session.NextTrial.block);
-        //}
+
         Debug.Log("Starting trial n° " + session.NextTrial.number.ToString());
 
         session.NextTrial.Begin2(B);
@@ -163,9 +181,6 @@ public class ExperimentController : MonoBehaviour
         task.Run();
 
     }
-    //private void StartSafe()   => task.GetComponent<PositionWatcher>().CheckAngle(
-    //                                    stimuliHouse.CurrentHouse.localEulerAngles.y, 60);
-    //private void StartUnsafe() => task.Run();
 
     private void RepeatTrial()
     {
@@ -188,11 +203,6 @@ public class ExperimentController : MonoBehaviour
     {
         Debug.Log("Ending trial...");
         session.CurrentTrial.End2(B);
-        //if (session.CurrentTrial == session.CurrentBlock.lastTrial)
-        //{
-        //    Debug.Log("Ending block...");
-        //    //session.onBlockEnd?.Invoke(session.CurrentBlock);
-        //}
         if (session.CurrentTrial == session.LastTrial)
         {
             session.End();
