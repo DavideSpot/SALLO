@@ -296,3 +296,4 @@ __pycache__/
 *.bak*
 # Unity meta files
 # *.meta # allowing them for package generation
+Documentation~/
