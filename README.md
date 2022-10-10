@@ -5,4 +5,4 @@ SALLO is a Unity package that provides a suite of tools to simplify the design a
 
 Wait for the incoming publication to get an insight about the features of SALLO. 'till then, have faith: it's cool.
 
-Meanwhile, you can find the API documentation **[here](https://htmlpreview.github.io/?https://github.com/DavideSpot/SALLO/blob/main/Documentation~/html/index.html)**
+Meanwhile, you can find the API documentation **[here](https://davidespot.github.io/SALLO)**
