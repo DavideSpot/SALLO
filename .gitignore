@@ -296,5 +296,9 @@ __pycache__/
 *.bak*
 # Unity meta files
 # *.meta # allowing them for package generation
-/docs/**.meta # do not track meta files of documentation
+
+# do not track meta files of documentation
+/docs/*.meta
+/docs/search/*.meta
 Documentation~/
+
