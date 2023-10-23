@@ -10,7 +10,6 @@ sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
 *.apk
-#*.unitypackage
 
 
 ## ignore Visual Studio solution and project files
@@ -302,3 +301,5 @@ __pycache__/
 /docs/search/*.meta
 Documentation~/
 
+# decide whether to deliver UXF unitypackage with sample
+*.unitypackage 
