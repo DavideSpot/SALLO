@@ -5,7 +5,7 @@
   "description": "this package contains a suite of tools for the assessment of low-level cues on orientation.\nIt aims to simplify the development of psychophysical experiments in virtual reality",
   "unity": "2019.4",
   "unityRelease": "34f1",
-  "documentationUrl": "docs/html/index.html",
+  "documentationUrl": "https://davidespot.github.io/SALLO/index.html",
   "changelogUrl": "TODO",
   "licensesUrl": "TODO",
   "dependencies": {
@@ -25,7 +25,8 @@
     "company url": "https://www.iit.it/web/unit-for-visually-impaired-people"
   },
   "files": [
-	"Samples"
+	"Samples~",
+	"Documentation~"
   ],
   "samples": [
 	{
