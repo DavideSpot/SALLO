@@ -294,12 +294,12 @@ __pycache__/
 # backup files
 *.bak*
 # Unity meta files
-# *.meta # allowing them for package generation
+# *.meta# allowing them for package generation
 
 # do not track meta files of documentation
 /docs/*.meta
 /docs/search/*.meta
-Documentation~/
+Documentation~/*.meta
 
 # decide whether to deliver UXF unitypackage with sample
-*.unitypackage 
+#*.unitypackage 
