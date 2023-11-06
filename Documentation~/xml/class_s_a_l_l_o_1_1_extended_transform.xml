@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_extended_transform" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::ExtendedTransform</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_extended_transform_1aa36b755e52e5fec93cdb503da0152552" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SALLO.ExtendedTransform.SetLocalPositionAndRotation</definition>
+        <argsstring>(this Transform T, Vector3 newLocalPosition, Quaternion newLocalRotation)</argsstring>
+        <name>SetLocalPositionAndRotation</name>
+        <qualifiedname>SALLO.ExtendedTransform.SetLocalPositionAndRotation</qualifiedname>
+        <param>
+          <type>this Transform</type>
+          <declname>T</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>newLocalPosition</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>newLocalRotation</declname>
+        </param>
+        <briefdescription>
+<para>Set local position and rotation for the caller Transform  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newLocalPosition</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newLocalRotation</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/MISC/ExtendedTransform.cs" line="18" column="20" bodyfile="Scripts/Runtime/MISC/ExtendedTransform.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Extension methods for the Transform class  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Runtime/MISC/ExtendedTransform.cs" line="10" column="15" bodyfile="Scripts/Runtime/MISC/ExtendedTransform.cs" bodystart="11" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_extended_transform_1aa36b755e52e5fec93cdb503da0152552" prot="public" virt="non-virtual"><scope>SALLO::ExtendedTransform</scope><name>SetLocalPositionAndRotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_array_placer_editor" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::ArrayPlacerEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_editor_1a4b28ffa2ef9d32df390dab99192cb4d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SALLO.ArrayPlacerEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <qualifiedname>SALLO.ArrayPlacerEditor.OnInspectorGUI</qualifiedname>
+        <briefdescription>
+<para>Add two buttons to the <ref refid="class_s_a_l_l_o_1_1_array_placer" kindref="compound">ArrayPlacer</ref> default inspector GUI: <itemizedlist>
+<listitem>
+<para><computeroutput>Get Array</computeroutput> calls the <computeroutput>MakeList</computeroutput> method, to import the available items in the array under control of the <computeroutput><ref refid="class_s_a_l_l_o_1_1_array_placer" kindref="compound">ArrayPlacer</ref></computeroutput> instance.  </para>
+</listitem>
+<listitem>
+<para><computeroutput>Update Positions</computeroutput> calls the <computeroutput>SetPositions</computeroutput> method, to update the position of the items according to the current parameters set.  </para>
+</listitem>
+</itemizedlist>
+<ref refid="class_s_a_l_l_o_1_1_array_placer" kindref="compound">ArrayPlacer</ref>  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Editor/Positioning/ArrayPlacerEditor.cs" line="24" column="30" bodyfile="Scripts/Editor/Positioning/ArrayPlacerEditor.cs" bodystart="24" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>SALLO.ArrayPlacerEditor</label>
+        <link refid="class_s_a_l_l_o_1_1_array_placer_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>SALLO.ArrayPlacerEditor</label>
+        <link refid="class_s_a_l_l_o_1_1_array_placer_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Editor/Positioning/ArrayPlacerEditor.cs" line="10" column="11" bodyfile="Scripts/Editor/Positioning/ArrayPlacerEditor.cs" bodystart="11" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_editor_1a4b28ffa2ef9d32df390dab99192cb4d6" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacerEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

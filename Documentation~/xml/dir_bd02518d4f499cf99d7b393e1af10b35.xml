@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_bd02518d4f499cf99d7b393e1af10b35" kind="dir">
+    <compoundname>Scripts/Runtime</compoundname>
+    <innerdir refid="dir_0cf834c56fedd37bbd2214d63aa58056">Scripts/Runtime/MISC</innerdir>
+    <innerdir refid="dir_a138622b9494ca76092f548d9b1a80d7">Scripts/Runtime/Positioning</innerdir>
+    <innerdir refid="dir_e0149e468c813c5fcb23f4f72946140c">Scripts/Runtime/PsychophysicalMethods</innerdir>
+    <innerdir refid="dir_2247375b76ef2ed990f4c06069269932">Scripts/Runtime/Stimuli</innerdir>
+    <innerdir refid="dir_388b7163839f2defa1ae6738888f132d">Scripts/Runtime/Tasks</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Runtime/"/>
+  </compounddef>
+</doxygen>

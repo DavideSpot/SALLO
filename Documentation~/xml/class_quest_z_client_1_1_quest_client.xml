@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_quest_z_client_1_1_quest_client" kind="class" language="Python" prot="public">
+    <compoundname>QuestZClient::QuestClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">unity_client.UnityClientService</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1aef3d932d8ef0283ed323f719207d1a0a" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float QuestZClient.QuestClient::tGuess</definition>
+        <argsstring></argsstring>
+        <name>tGuess</name>
+        <qualifiedname>QuestZClient.QuestClient.tGuess</qualifiedname>
+        <initializer>=  0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="88" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1af8cd831127c4dad601b8a98564cb1435" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int QuestZClient.QuestClient::tGuessSd</definition>
+        <argsstring></argsstring>
+        <name>tGuessSd</name>
+        <qualifiedname>QuestZClient.QuestClient.tGuessSd</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="89" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1a9686b7b280442ffbde74af813a06d259" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float QuestZClient.QuestClient::pThreshold</definition>
+        <argsstring></argsstring>
+        <name>pThreshold</name>
+        <qualifiedname>QuestZClient.QuestClient.pThreshold</qualifiedname>
+        <initializer>=  0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="90" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1a1be4952d036aa7161dcdc35911d422a4" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float QuestZClient.QuestClient::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <qualifiedname>QuestZClient.QuestClient.beta</qualifiedname>
+        <initializer>=  3.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="91" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1a6b25ede7a52a0f93fdec7a2978279061" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float QuestZClient.QuestClient::gamma</definition>
+        <argsstring></argsstring>
+        <name>gamma</name>
+        <qualifiedname>QuestZClient.QuestClient.gamma</qualifiedname>
+        <initializer>=  0.01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="92" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1af1f5a21eeb9235856d66cf25ac3b1057" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float QuestZClient.QuestClient::delta</definition>
+        <argsstring></argsstring>
+        <name>delta</name>
+        <qualifiedname>QuestZClient.QuestClient.delta</qualifiedname>
+        <initializer>=  0.01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="93" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1a6f52dc61a42541d247a0c91a167ccc93" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int QuestZClient.QuestClient::noise</definition>
+        <argsstring></argsstring>
+        <name>noise</name>
+        <qualifiedname>QuestZClient.QuestClient.noise</qualifiedname>
+        <initializer>=  .05</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="94" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1afffa23bbcf6c55dafe570a2a6dc84e98" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>QuestZClient.QuestClient::stimuli</definition>
+        <argsstring></argsstring>
+        <name>stimuli</name>
+        <qualifiedname>QuestZClient.QuestClient.stimuli</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="104" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1a48eddc2e372aaf687a71ab8bcd98e9da" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>QuestZClient.QuestClient::responses</definition>
+        <argsstring></argsstring>
+        <name>responses</name>
+        <qualifiedname>QuestZClient.QuestClient.responses</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="105" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quest_z_client_1_1_quest_client_1acdb1b3f866e2f2e3387f378e1d3b0351" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>QuestZClient.QuestClient::quest</definition>
+        <argsstring></argsstring>
+        <name>quest</name>
+        <qualifiedname>QuestZClient.QuestClient.quest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="106" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1aa6b830d0ab83aa6d18d4a2369309d2bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient.exposed_initQuest</definition>
+        <argsstring>(self, Grain=0.01)</argsstring>
+        <name>exposed_initQuest</name>
+        <qualifiedname>QuestZClient.QuestClient.exposed_initQuest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>Grain</type>
+          <defname>Grain</defname>
+          <defval>0.01</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Instantiate a Quest object with the desired grain
+
+Parameters
+----------
+Grain : float
+    the quantization of the internal table. E.g. 0.01.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="96" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="96" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1a8708da8960b214c45a7353f332060e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient.exposed_restart_quest</definition>
+        <argsstring>(self)</argsstring>
+        <name>exposed_restart_quest</name>
+        <qualifiedname>QuestZClient.QuestClient.exposed_restart_quest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Destroy the current questObject instance and its related history, and instantiate a new one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="120" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="120" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1a48639b0e3ed18c0644e8d17b4990a6e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient.exposed_gausnoise</definition>
+        <argsstring>(self)</argsstring>
+        <name>exposed_gausnoise</name>
+        <qualifiedname>QuestZClient.QuestClient.exposed_gausnoise</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get a sample from a gaussian noise distribution with &apos;self.noise&apos; standard deviation
+Returns
+-------
+sample : float
+    the noise sample
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="128" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="128" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1af0370ccd4e30b6a1f6b92ac814aaa610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient.exposed_query_quest</definition>
+        <argsstring>(self, addNoise=False, append=True, verbose=True, randomFlip=True)</argsstring>
+        <name>exposed_query_quest</name>
+        <qualifiedname>QuestZClient.QuestClient.exposed_query_quest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>addNoise</type>
+          <defname>addNoise</defname>
+          <defval>False</defval>
+        </param>
+        <param>
+          <type>append</type>
+          <defname>append</defname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>verbose</type>
+          <defname>verbose</defname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>randomFlip</type>
+          <defname>randomFlip</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the most informative value for the stimulus according to the QuestObject instance
+
+Parameters
+----------
+addNoise : bool
+    inject some gaussian random noise in the Quest estimate?
+append : bool, optional
+    keep track of the query?
+verbose : bool
+    output the queried value to console?
+randomFlip : bool
+    Take the value symmetrical to the Quest estimate with respect to 0.5?
+    Necessary to balance left and right trials (the quest is designed for mono directional intensity assessment (Quest converges at 0),
+    while left-right response patterns require bidirectional intensity assessment. Solution: random flipping to make the Quest converge at 0.5.            
+Returns
+-------
+zstim_best
+    The (preprocessed?) Quest estimate
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="140" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="140" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1a7a8f0d21f31afe0a7b625a46e415445f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient.exposed_update_quest</definition>
+        <argsstring>(self, response, zstim_real=None, append=True, verbose=True)</argsstring>
+        <name>exposed_update_quest</name>
+        <qualifiedname>QuestZClient.QuestClient.exposed_update_quest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>response</type>
+          <defname>response</defname>
+        </param>
+        <param>
+          <type>zstim_real</type>
+          <defname>zstim_real</defname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>append</type>
+          <defname>append</defname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type>verbose</type>
+          <defname>verbose</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Update the Quest algorithm&apos;s estimate according the the participant&apos;s response
+
+Parameters
+----------
+response : int
+    The participant&apos;s response: 1 if hit or 0 if miss
+zstim_real : float, optional
+    The value used as stimulus. If empty, the last raw Quest estimate is used
+append : bool, optional
+    keep track of the response?
+verbose : bool
+    output the stimulus-response pair to console?
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="174" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="174" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1a4a295079d8ca7a6637bf7a7d4765dfd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient.exposed_client_name</definition>
+        <argsstring>(self)</argsstring>
+        <name>exposed_client_name</name>
+        <qualifiedname>QuestZClient.QuestClient.exposed_client_name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="200" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="200" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quest_z_client_1_1_quest_client_1a737bfaddecbb71001147141b92341bc5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def QuestZClient.QuestClient._clearQuest</definition>
+        <argsstring>(self)</argsstring>
+        <name>_clearQuest</name>
+        <qualifiedname>QuestZClient.QuestClient._clearQuest</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Destroy the current QuestObject instance and clear the stored stimuli and responses
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="111" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="111" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>The class exposing the Quest features to Unity.
+The Quest implementation used here is forced to keep its value betwee 0 and 1. Further scaling is performed in Unity.
+See Quest.py for the complete documentation about the Quest class
+
+...
+
+Attributes
+----------
+
+tGuess : float
+    The prior threshold estimate.
+tGuessSD : float
+    the standard deviation assigned to tGuess.
+pThreshold : float
+    the threshold criterion expressed as probability of response==1. See Quest.py for further details.
+beta : float
+    controls the steepness of the (Weibull) psychometric function. Typically 3.5, so as to have symmetric PDF.
+gamma : float
+    the fraction of trials that will generate response 1 when intensity==-inf.
+delta : float
+    the fraction of trials on which the observer presses blindly. Typically 0.01.
+noise : float
+    the standard deviation of the gaussian noise which can be added to the Quest estimate
+
+beta, delta, and gamma are the parameters of a Weibull
+psychometric function.
+
+Quest range fixed at 1 
+
+Methods (the methods with the &apos;exposed&apos; prexif are callable from Unity)
+-------
+exposed_initQuest(Grain = 0.01)
+    Instantiate a Quest object with the desired grain
+
+_clearQuest()
+    Destroy the current QuestObject instance and clear the stored stimuli and responses
+
+exposed_restart_quest()
+    Destroy the current questObject instance and its related history, and instantiate a new one
+
+exposed_gausnoise()
+    Get a sample from a gaussian noise distribution with &apos;self.noise&apos; standard deviation 
+
+exposed_query_quest(addNoise, append, verbose, randomFlip)
+    Get the most informative value for the stimulus according to the QuestObject instance
+
+exposed_update_quest(response, zstim_real, append, verbose)
+    Update the Quest algorithm&apos;s estimate according the the participant&apos;s response
+
+
+exposed_client_name()
+    Get the QuestZClient clientname attribute</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>QuestZClient.QuestClient</label>
+        <link refid="class_quest_z_client_1_1_quest_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity_client::UnityClientService</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>QuestZClient.QuestClient</label>
+        <link refid="class_quest_z_client_1_1_quest_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>unity_client::UnityClientService</label>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" line="32" column="1" bodyfile="Scripts/Runtime/PsychophysicalMethods/pyQuest/QuestZClient.py" bodystart="32" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_quest_z_client_1_1_quest_client_1a737bfaddecbb71001147141b92341bc5" prot="private" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>_clearQuest</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a1be4952d036aa7161dcdc35911d422a4" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>beta</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1af1f5a21eeb9235856d66cf25ac3b1057" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>delta</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a4a295079d8ca7a6637bf7a7d4765dfd7" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>exposed_client_name</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a48639b0e3ed18c0644e8d17b4990a6e5" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>exposed_gausnoise</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1aa6b830d0ab83aa6d18d4a2369309d2bc" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>exposed_initQuest</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1af0370ccd4e30b6a1f6b92ac814aaa610" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>exposed_query_quest</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a8708da8960b214c45a7353f332060e7b" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>exposed_restart_quest</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a7a8f0d21f31afe0a7b625a46e415445f" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>exposed_update_quest</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a6b25ede7a52a0f93fdec7a2978279061" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>gamma</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a6f52dc61a42541d247a0c91a167ccc93" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>noise</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a9686b7b280442ffbde74af813a06d259" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>pThreshold</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1acdb1b3f866e2f2e3387f378e1d3b0351" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>quest</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1a48eddc2e372aaf687a71ab8bcd98e9da" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>responses</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1afffa23bbcf6c55dafe570a2a6dc84e98" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>stimuli</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1aef3d932d8ef0283ed323f719207d1a0a" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>tGuess</name></member>
+      <member refid="class_quest_z_client_1_1_quest_client_1af8cd831127c4dad601b8a98564cb1435" prot="public" virt="non-virtual"><scope>QuestZClient::QuestClient</scope><name>tGuessSd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

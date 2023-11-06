@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_741de96b26e236543dbe1b06ef8b6273" kind="dir">
+    <compoundname>Tests/Editor</compoundname>
+    <innerdir refid="dir_18bd1004ddec94a9d239c29e1556a653">Tests/Editor/MISC</innerdir>
+    <innerdir refid="dir_f4f5b47f6be6f94c288703f9eccb2c6a">Tests/Editor/Positioning</innerdir>
+    <innerdir refid="dir_83d72cba54c3a92b8e91e32066d4bd5a">Tests/Editor/Stimuli</innerdir>
+    <innerdir refid="dir_5d74caa235b476ac4472a17ea341ff93">Tests/Editor/Tasks</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tests/Editor/"/>
+  </compounddef>
+</doxygen>

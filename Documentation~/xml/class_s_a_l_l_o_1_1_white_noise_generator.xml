@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_white_noise_generator" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::WhiteNoiseGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_white_noise_generator_1a5e51ccb3450d7790ecb6ccb18d48d276" prot="private" static="no" mutable="no">
+        <type>System.Random</type>
+        <definition>System.Random SALLO.WhiteNoiseGenerator.rand</definition>
+        <argsstring></argsstring>
+        <name>rand</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.rand</qualifiedname>
+        <initializer>= new System.Random()</initializer>
+        <briefdescription>
+<para>the noise generator. Change this to change the underlying noise distribution  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="13" column="22" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_white_noise_generator_1a2b3f18a29e0d05e6f98cd8772e783c34" prot="private" static="no" mutable="no">
+        <type>AudioClip</type>
+        <definition>AudioClip SALLO.WhiteNoiseGenerator.myClip</definition>
+        <argsstring></argsstring>
+        <name>myClip</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.myClip</qualifiedname>
+        <briefdescription>
+<para>The clip that stores the noise data  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="25" column="19" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_white_noise_generator_1a323808cf34dd38059e3971b89d1e55d5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SALLO.WhiteNoiseGenerator.soundStart</definition>
+        <argsstring></argsstring>
+        <name>soundStart</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.soundStart</qualifiedname>
+        <briefdescription>
+<para>flag for sound start  </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, the buffer is filled with a logarithmic ramp</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="34" column="14" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_white_noise_generator_1ad7e2429aba8a4fa2adc86e3c14fbe342" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SALLO.WhiteNoiseGenerator.samplerate</definition>
+        <argsstring></argsstring>
+        <name>samplerate</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.samplerate</qualifiedname>
+        <initializer>= 44100</initializer>
+        <briefdescription>
+<para>The desired sampling rate  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="17" column="20" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_white_noise_generator_1a5f4a6bfb4f9cea92b74e7586dd4addd2" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource SALLO.WhiteNoiseGenerator.aud</definition>
+        <argsstring></argsstring>
+        <name>aud</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.aud</qualifiedname>
+        <briefdescription>
+<para>The audio source that plays the noise clip  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="21" column="28" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_white_noise_generator_1a59a35e146ab367c5c17580ccea677185" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SALLO.WhiteNoiseGenerator.soundLength</definition>
+        <argsstring></argsstring>
+        <name>soundLength</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.soundLength</qualifiedname>
+        <briefdescription>
+<para>the clip (buffer) length  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="29" column="22" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_white_noise_generator_1aff322662e5eb08c1cc81c69714ef87a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.WhiteNoiseGenerator.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.OnEnable</qualifiedname>
+        <briefdescription>
+<para>Start emitting white noise  </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Set <ref refid="class_s_a_l_l_o_1_1_white_noise_generator_1af46ebd21228870b00286c909665a6d75" kindref="member">OnAudioRead</ref> as AudioClip.PCMReaderCallback.  </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="43" column="22" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="43" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_white_noise_generator_1af46ebd21228870b00286c909665a6d75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.WhiteNoiseGenerator.OnAudioRead</definition>
+        <argsstring>(float[] data)</argsstring>
+        <name>OnAudioRead</name>
+        <qualifiedname>SALLO.WhiteNoiseGenerator.OnAudioRead</qualifiedname>
+        <param>
+          <type>float[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>fill the sound buffer with noise at every call of the <ref refid="class_s_a_l_l_o_1_1_white_noise_generator_1af46ebd21228870b00286c909665a6d75" kindref="member">OnAudioRead</ref> event.    </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the audio buffer to fill</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="69" column="14" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="69" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><bold>Stimuli</bold> component. Generates Uniform white noise procedurally, in real time.  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.WhiteNoiseGenerator</label>
+        <link refid="class_s_a_l_l_o_1_1_white_noise_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.WhiteNoiseGenerator</label>
+        <link refid="class_s_a_l_l_o_1_1_white_noise_generator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>rand</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" line="8" column="11" bodyfile="Scripts/Runtime/Stimuli/WhiteNoiseGenerator.cs" bodystart="9" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1a5f4a6bfb4f9cea92b74e7586dd4addd2" prot="public" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>aud</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1a2b3f18a29e0d05e6f98cd8772e783c34" prot="private" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>myClip</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1af46ebd21228870b00286c909665a6d75" prot="private" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>OnAudioRead</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1aff322662e5eb08c1cc81c69714ef87a3" prot="private" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>OnEnable</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1a5e51ccb3450d7790ecb6ccb18d48d276" prot="private" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>rand</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1ad7e2429aba8a4fa2adc86e3c14fbe342" prot="public" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>samplerate</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1a59a35e146ab367c5c17580ccea677185" prot="public" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>soundLength</name></member>
+      <member refid="class_s_a_l_l_o_1_1_white_noise_generator_1a323808cf34dd38059e3971b89d1e55d5" prot="private" virt="non-virtual"><scope>SALLO::WhiteNoiseGenerator</scope><name>soundStart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

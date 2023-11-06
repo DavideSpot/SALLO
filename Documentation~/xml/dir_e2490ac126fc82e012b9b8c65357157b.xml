@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_e2490ac126fc82e012b9b8c65357157b" kind="dir">
+    <compoundname>Scripts/Runtime/Tasks/Base</compoundname>
+    <innerfile refid="_dummy_task_8cs">DummyTask.cs</innerfile>
+    <innerfile refid="_task_8cs">Task.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Scripts/Runtime/Tasks/Base/"/>
+  </compounddef>
+</doxygen>

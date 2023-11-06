@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_position_watcher" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::PositionWatcher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_position_watcher_1a56b7a6d89d2c9c20b1aa41720a74d93d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_a_l_l_o_1_1_task" kindref="compound">Task</ref></type>
+        <definition>Task SALLO.PositionWatcher.task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <qualifiedname>SALLO.PositionWatcher.task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="16" column="22" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_position_watcher_1a90123495767b8210014111d595ce8567" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_a_l_l_o_1_1_pitch_controller" kindref="compound">PitchController</ref></type>
+        <definition>PitchController SALLO.PositionWatcher.pc</definition>
+        <argsstring></argsstring>
+        <name>pc</name>
+        <qualifiedname>SALLO.PositionWatcher.pc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="17" column="33" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_position_watcher_1a6e7327c0a8516aeee0e2cb4359f78db3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SALLO.PositionWatcher.TargetAngle</definition>
+        <argsstring></argsstring>
+        <name>TargetAngle</name>
+        <qualifiedname>SALLO.PositionWatcher.TargetAngle</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="21" column="23" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_position_watcher_1af6445adb3ef92126f5fe0695d1a91ca0" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SALLO.PositionWatcher.observer</definition>
+        <argsstring></argsstring>
+        <name>observer</name>
+        <qualifiedname>SALLO.PositionWatcher.observer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="19" column="26" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_position_watcher_1aca079008f9afa7367b708ceba78a3824" prot="public" static="no" mutable="no">
+        <type>UnityAction</type>
+        <definition>UnityAction SALLO.PositionWatcher.PositionFound</definition>
+        <argsstring></argsstring>
+        <name>PositionFound</name>
+        <qualifiedname>SALLO.PositionWatcher.PositionFound</qualifiedname>
+        <briefdescription>
+<para>called when the observer finds the target angle  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="29" column="28" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_position_watcher_1a1dd7a3ce89c5063d6330d085565e6f54" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SALLO.PositionWatcher.PositionKept</definition>
+        <argsstring></argsstring>
+        <name>PositionKept</name>
+        <qualifiedname>SALLO.PositionWatcher.PositionKept</qualifiedname>
+        <briefdescription>
+<para>flag to indicate whether the observer holds the target orientation while performing some actions  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="33" column="21" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_a_l_l_o_1_1_position_watcher_1a579f2ecf7545de43ffed2944cdd868bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SALLO.PositionWatcher.inPosition</definition>
+        <argsstring></argsstring>
+        <name>inPosition</name>
+        <qualifiedname>SALLO.PositionWatcher.inPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="20" column="21" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_a_l_l_o_1_1_position_watcher_1a66c2e58c6ab3fa8801bc00b33525c307" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float SALLO.PositionWatcher.observer_stimuli_angle</definition>
+        <argsstring></argsstring>
+        <name>observer_stimuli_angle</name>
+        <qualifiedname>SALLO.PositionWatcher.observer_stimuli_angle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="22" column="22" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_position_watcher_1a61e608ee2c194801516398f3caab8214" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.PositionWatcher.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>SALLO.PositionWatcher.OnEnable</qualifiedname>
+        <briefdescription>
+<para>check whether the observer holds the target orientation during the stimuli presentation  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="38" column="14" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_position_watcher_1ae2774d8786c9016bbc68aa10fc7eb493" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.PositionWatcher.CountToFrame</definition>
+        <argsstring>(int? frameLimit=null, float tolerance=3f)</argsstring>
+        <name>CountToFrame</name>
+        <qualifiedname>SALLO.PositionWatcher.CountToFrame</qualifiedname>
+        <param>
+          <type>int?</type>
+          <declname>frameLimit</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+          <defval>3f</defval>
+        </param>
+        <briefdescription>
+<para>Private method to check if the observer finds a target angle (orientation)  </para>
+        </briefdescription>
+        <detaileddescription>
+<para>invoked in the public method <ref refid="class_s_a_l_l_o_1_1_position_watcher_1a62e7f38daf85223739d37c53a53caa7f" kindref="member">CheckAngle</ref></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frameLimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the amount of frames that the observer should hold their orientation to consider the target angle (orientation) as found </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tolerance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the tolerance in the target angle accuracy ([angle-tolerance,angle+tolerance]) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="72" column="29" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="72" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_position_watcher_1a62e7f38daf85223739d37c53a53caa7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.PositionWatcher.CheckAngle</definition>
+        <argsstring>(float targetAngle, int? frameLimit=null, float tolerance=3f)</argsstring>
+        <name>CheckAngle</name>
+        <qualifiedname>SALLO.PositionWatcher.CheckAngle</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetAngle</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>frameLimit</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+          <defval>3f</defval>
+        </param>
+        <briefdescription>
+<para>Public method to check if the observer finds a target angle (orientation)  </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the orientation check is performed in the private method <ref refid="class_s_a_l_l_o_1_1_position_watcher_1ae2774d8786c9016bbc68aa10fc7eb493" kindref="member">CountToFrame</ref> </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetAngle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the target angle (orientation)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frameLimit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the amount of frames that the observer should hold their orientation to consider the target angle (orientation) as found </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tolerance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the tolerance in the target angle accuracy ([angle-tolerance,angle+tolerance]) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="58" column="21" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_position_watcher_1ad9de5e55f658223d9570c891648d825c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.PositionWatcher.IsKeepingPosition</definition>
+        <argsstring>(float tolerance=3f)</argsstring>
+        <name>IsKeepingPosition</name>
+        <qualifiedname>SALLO.PositionWatcher.IsKeepingPosition</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>tolerance</declname>
+          <defval>3f</defval>
+        </param>
+        <briefdescription>
+<para>public method to check if the observer is mantaining their orientation  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tolerance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the tolerance in the target angle accuracy ([angle-tolerance,angle+tolerance]) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="91" column="28" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="91" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><bold>Player Positioning</bold> component. Useful to track the position (orientation) of an observer with respect to any target angle and respond accordingly  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.PositionWatcher</label>
+        <link refid="class_s_a_l_l_o_1_1_position_watcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.PositionWatcher</label>
+        <link refid="class_s_a_l_l_o_1_1_position_watcher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>pc</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SALLO.CylindricalCoordinates</label>
+        <link refid="class_s_a_l_l_o_1_1_cylindrical_coordinates"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>SALLO.PitchController</label>
+        <link refid="class_s_a_l_l_o_1_1_pitch_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SALLO.Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" line="14" column="11" bodyfile="Scripts/Runtime/Positioning/Player_positioning/PositionWatcher.cs" bodystart="15" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a62e7f38daf85223739d37c53a53caa7f" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>CheckAngle</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1ae2774d8786c9016bbc68aa10fc7eb493" prot="private" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>CountToFrame</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a579f2ecf7545de43ffed2944cdd868bd" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>inPosition</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1ad9de5e55f658223d9570c891648d825c" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>IsKeepingPosition</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1af6445adb3ef92126f5fe0695d1a91ca0" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>observer</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a66c2e58c6ab3fa8801bc00b33525c307" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>observer_stimuli_angle</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a61e608ee2c194801516398f3caab8214" prot="private" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>OnEnable</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a90123495767b8210014111d595ce8567" prot="private" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>pc</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1aca079008f9afa7367b708ceba78a3824" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>PositionFound</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a1dd7a3ce89c5063d6330d085565e6f54" prot="public" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>PositionKept</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a6e7327c0a8516aeee0e2cb4359f78db3" prot="private" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>TargetAngle</name></member>
+      <member refid="class_s_a_l_l_o_1_1_position_watcher_1a56b7a6d89d2c9c20b1aa41720a74d93d" prot="private" virt="non-virtual"><scope>SALLO::PositionWatcher</scope><name>task</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

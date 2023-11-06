@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_ccc1b60aa7c5472706b11b3c4e54bdec" kind="dir">
+    <compoundname>Tests/Runtime/Positioning</compoundname>
+    <innerfile refid="_position_watcher_tests_8cs">PositionWatcherTests.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tests/Runtime/Positioning/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_array_placer" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::ArrayPlacer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a6191835d54a40e473e55b95642f62eb0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SALLO.ArrayPlacer.AzimuthBetween</definition>
+        <argsstring></argsstring>
+        <name>AzimuthBetween</name>
+        <qualifiedname>SALLO.ArrayPlacer.AzimuthBetween</qualifiedname>
+        <briefdescription>
+<para>The desired azimuth angle between each consecutive pair of GameObjects in the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="16" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a2bd7fbfd02b1ad0f481d3393294a4351" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SALLO.ArrayPlacer.Radius</definition>
+        <argsstring></argsstring>
+        <name>Radius</name>
+        <qualifiedname>SALLO.ArrayPlacer.Radius</qualifiedname>
+        <briefdescription>
+<para>Radius common to all the GameObjects in the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="27" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a289fda16fea7606625e55b64c2097c08" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SALLO.ArrayPlacer.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <qualifiedname>SALLO.ArrayPlacer.Height</qualifiedname>
+        <briefdescription>
+<para>Height (elevation) common to all the GameObjects in the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="31" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a0b8c89e6444f8bf34c643323958127f1" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] SALLO.ArrayPlacer.Keys</definition>
+        <argsstring></argsstring>
+        <name>Keys</name>
+        <qualifiedname>SALLO.ArrayPlacer.Keys</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Array of keyword tags  </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If the parameter <ref refid="class_s_a_l_l_o_1_1_array_placer_1a70821ce5c0000a0be6f469e6ac1d4b6e" kindref="member">Exclude</ref> is true, the GameObjects with one of the tags in this array will not be included in the controlled set. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="45" column="23" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a70821ce5c0000a0be6f469e6ac1d4b6e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SALLO.ArrayPlacer.Exclude</definition>
+        <argsstring></argsstring>
+        <name>Exclude</name>
+        <qualifiedname>SALLO.ArrayPlacer.Exclude</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>decide whether to exclude the GameObjects tagged with one of the strings contained in <ref refid="class_s_a_l_l_o_1_1_array_placer_1a0b8c89e6444f8bf34c643323958127f1" kindref="member">Keys</ref>.  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="49" column="21" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a281069dcdbc56a605a11247ba16d63bd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SALLO.ArrayPlacer.azimuthOffset</definition>
+        <argsstring></argsstring>
+        <name>azimuthOffset</name>
+        <qualifiedname>SALLO.ArrayPlacer.azimuthOffset</qualifiedname>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+<para>Azimuth shift common to all the GameObjects in the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="22" column="23" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_array_placer_1a082efed8fea5c9f78da2471e6f9adf40" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_s_a_l_l_o_1_1_cylindrical_coordinates" kindref="compound">CylindricalCoordinates</ref> &gt;</type>
+        <definition>List&lt;CylindricalCoordinates&gt; SALLO.ArrayPlacer.array</definition>
+        <argsstring></argsstring>
+        <name>array</name>
+        <qualifiedname>SALLO.ArrayPlacer.array</qualifiedname>
+        <briefdescription>
+<para>The controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="37" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_a_l_l_o_1_1_array_placer_1a34a0a9fabb8abb46c959e3f6da1c917d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float SALLO.ArrayPlacer.AzimuthOffset</definition>
+        <argsstring></argsstring>
+        <name>AzimuthOffset</name>
+        <qualifiedname>SALLO.ArrayPlacer.AzimuthOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="23" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_1a1fc8b09cd8f7c5b6db9ddec07f7b90d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.ArrayPlacer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>SALLO.ArrayPlacer.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="52" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_1a952d8453b92b7912edb004122a1dda9b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.ArrayPlacer.UpdateOffset</definition>
+        <argsstring>(float offset)</argsstring>
+        <name>UpdateOffset</name>
+        <qualifiedname>SALLO.ArrayPlacer.UpdateOffset</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Update the common azimuth shift in all the items of the controlled set.  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desired common azimuth shift</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="94" column="22" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_1a7334aaafdedc5b30b424c9869190eba2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float SALLO.ArrayPlacer.LocalAzimuth</definition>
+        <argsstring>(float azimuth, int i)</argsstring>
+        <name>LocalAzimuth</name>
+        <qualifiedname>SALLO.ArrayPlacer.LocalAzimuth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Computes the azimuth angle for a specific item, given the common azimuth parameters and the item order in the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>azimuth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desired azimuthal angle between each consecutive pair of items in the controlled set</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index of the target item</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The azimuth angle for the given item</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="108" column="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_1a72202adbc6a73ee5c59765f8e36fc637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_s_a_l_l_o_1_1_cylindrical_coordinates" kindref="compound">CylindricalCoordinates</ref> &gt;</type>
+        <definition>List&lt; CylindricalCoordinates &gt; SALLO.ArrayPlacer.MakeList</definition>
+        <argsstring>(string[] keys=null, bool exclude=true)</argsstring>
+        <name>MakeList</name>
+        <qualifiedname>SALLO.ArrayPlacer.MakeList</qualifiedname>
+        <param>
+          <type>string[]</type>
+          <declname>keys</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>exclude</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Fill the set of GameObjects controlled by this component.  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of keyword tags. See <ref refid="class_s_a_l_l_o_1_1_array_placer_1a0b8c89e6444f8bf34c643323958127f1" kindref="member">Keys</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>exclude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>decide whether to exclude the GameObjects whose tag is in <ref refid="class_s_a_l_l_o_1_1_array_placer_1a70821ce5c0000a0be6f469e6ac1d4b6e" kindref="member">Exclude</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="66" column="21" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="66" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_1add48f87575feede9d3ccd4b591537784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.ArrayPlacer.SetPositions</definition>
+        <argsstring>()</argsstring>
+        <name>SetPositions</name>
+        <qualifiedname>SALLO.ArrayPlacer.SetPositions</qualifiedname>
+        <briefdescription>
+<para>Update the positions of the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="78" column="21" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_array_placer_1a9df0c3fe8889200630d23e0323b66007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.ArrayPlacer.Jitter</definition>
+        <argsstring>(int amplitude)</argsstring>
+        <name>Jitter</name>
+        <qualifiedname>SALLO.ArrayPlacer.Jitter</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>amplitude</declname>
+        </param>
+        <briefdescription>
+<para>Utility method to jitter the common azimuth shift of the controlled set  </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>amplitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value for the jitter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="114" column="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><bold>Stimuli Positioning</bold> component. Control the spatial relationships between a set of gameobjects  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.ArrayPlacer</label>
+        <link refid="class_s_a_l_l_o_1_1_array_placer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.ArrayPlacer</label>
+        <link refid="class_s_a_l_l_o_1_1_array_placer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" line="11" column="11" bodyfile="Scripts/Runtime/Positioning/Stimuli_positioning/ArrayPlacer.cs" bodystart="12" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a082efed8fea5c9f78da2471e6f9adf40" prot="private" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>array</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a6191835d54a40e473e55b95642f62eb0" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>AzimuthBetween</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a281069dcdbc56a605a11247ba16d63bd" prot="private" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>azimuthOffset</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a34a0a9fabb8abb46c959e3f6da1c917d" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>AzimuthOffset</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a70821ce5c0000a0be6f469e6ac1d4b6e" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>Exclude</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a289fda16fea7606625e55b64c2097c08" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>Height</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a9df0c3fe8889200630d23e0323b66007" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>Jitter</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a0b8c89e6444f8bf34c643323958127f1" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>Keys</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a7334aaafdedc5b30b424c9869190eba2" prot="private" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>LocalAzimuth</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a72202adbc6a73ee5c59765f8e36fc637" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>MakeList</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a1fc8b09cd8f7c5b6db9ddec07f7b90d2" prot="private" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>OnEnable</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a2bd7fbfd02b1ad0f481d3393294a4351" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>Radius</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1add48f87575feede9d3ccd4b591537784" prot="public" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>SetPositions</name></member>
+      <member refid="class_s_a_l_l_o_1_1_array_placer_1a952d8453b92b7912edb004122a1dda9b" prot="private" virt="non-virtual"><scope>SALLO::ArrayPlacer</scope><name>UpdateOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

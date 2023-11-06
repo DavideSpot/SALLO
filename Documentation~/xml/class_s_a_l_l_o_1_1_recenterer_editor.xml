@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_recenterer_editor" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::RecentererEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_recenterer_editor_1ac35453e7a6aad230b95e1c1f9bee869c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SALLO.RecentererEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <qualifiedname>SALLO.RecentererEditor.OnInspectorGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Scripts/Editor/Positioning/RecentererEditor.cs" line="10" column="30" bodyfile="Scripts/Editor/Positioning/RecentererEditor.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>SALLO.RecentererEditor</label>
+        <link refid="class_s_a_l_l_o_1_1_recenterer_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Editor</label>
+      </node>
+      <node id="1">
+        <label>SALLO.RecentererEditor</label>
+        <link refid="class_s_a_l_l_o_1_1_recenterer_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Scripts/Editor/Positioning/RecentererEditor.cs" line="7" column="11" bodyfile="Scripts/Editor/Positioning/RecentererEditor.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_recenterer_editor_1ac35453e7a6aad230b95e1c1f9bee869c" prot="public" virt="non-virtual"><scope>SALLO::RecentererEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

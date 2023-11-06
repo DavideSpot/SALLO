@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests" kind="class" language="C#" prot="public">
+    <compoundname>SALLO::Tests::LocalizationTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a432cd314be4914cca74db2e7e8327bb7" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SALLO.Tests.LocalizationTests.observer</definition>
+        <argsstring></argsstring>
+        <name>observer</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.observer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="12" column="19" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a561b35c8e2199f8c4f567bdbb03af22c" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SALLO.Tests.LocalizationTests.taskObject</definition>
+        <argsstring></argsstring>
+        <name>taskObject</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.taskObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="14" column="20" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a94dc2ac51c41b4e217931032a3799347" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_a_l_l_o_1_1_localization" kindref="compound">Localization</ref></type>
+        <definition>Localization SALLO.Tests.LocalizationTests.task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.task</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="15" column="22" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1af6d25ed0d48461fc8159a51352896e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.LocalizationTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.SetUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="19" column="21" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="19" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1aa3a3016839e7f055ef1168795572f94f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.LocalizationTests.Run_triggerBetweenTwoStimuli_ignore</definition>
+        <argsstring>()</argsstring>
+        <name>Run_triggerBetweenTwoStimuli_ignore</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.Run_triggerBetweenTwoStimuli_ignore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="35" column="28" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="35" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a4f915ce5f19613221c867568039a9dd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.LocalizationTests.Run_triggerAfterStimulusShow_collect</definition>
+        <argsstring>()</argsstring>
+        <name>Run_triggerAfterStimulusShow_collect</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.Run_triggerAfterStimulusShow_collect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="56" column="28" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="56" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a5972f12d277796c8e5a694c88d2e6898" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SALLO.Tests.LocalizationTests.PositionCheckSetUp_InPosition_StartSequence</definition>
+        <argsstring>()</argsstring>
+        <name>PositionCheckSetUp_InPosition_StartSequence</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.PositionCheckSetUp_InPosition_StartSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="71" column="28" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="71" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1aca7f7a950f07eedf2728dec1dd677e8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SALLO.Tests.LocalizationTests.TearDown</definition>
+        <argsstring>()</argsstring>
+        <name>TearDown</name>
+        <qualifiedname>SALLO.Tests.LocalizationTests.TearDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="89" column="21" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="89" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SALLO.Tests.LocalizationTests</label>
+        <link refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>SALLO.CylindricalCoordinates</label>
+        <link refid="class_s_a_l_l_o_1_1_cylindrical_coordinates"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SALLO.Localization</label>
+        <link refid="class_s_a_l_l_o_1_1_localization"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>StartingPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>SALLO.PitchController</label>
+        <link refid="class_s_a_l_l_o_1_1_pitch_controller"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SALLO.PositionWatcher</label>
+        <link refid="class_s_a_l_l_o_1_1_position_watcher"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>task</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>pc</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>SALLO.Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Task</label>
+        <link refid="class_s_a_l_l_o_1_1_task"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Stimulus</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tests/Runtime/Tasks/LocalizationTests.cs" line="10" column="11" bodyfile="Tests/Runtime/Tasks/LocalizationTests.cs" bodystart="11" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a432cd314be4914cca74db2e7e8327bb7" prot="private" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>observer</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a5972f12d277796c8e5a694c88d2e6898" prot="public" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>PositionCheckSetUp_InPosition_StartSequence</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a4f915ce5f19613221c867568039a9dd3" prot="public" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>Run_triggerAfterStimulusShow_collect</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1aa3a3016839e7f055ef1168795572f94f" prot="public" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>Run_triggerBetweenTwoStimuli_ignore</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1af6d25ed0d48461fc8159a51352896e6a" prot="public" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>SetUp</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a94dc2ac51c41b4e217931032a3799347" prot="private" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>task</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1a561b35c8e2199f8c4f567bdbb03af22c" prot="private" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>taskObject</name></member>
+      <member refid="class_s_a_l_l_o_1_1_tests_1_1_localization_tests_1aca7f7a950f07eedf2728dec1dd677e8a" prot="public" virt="non-virtual"><scope>SALLO::Tests::LocalizationTests</scope><name>TearDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
