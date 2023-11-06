@@ -24,15 +24,15 @@
     "author url": "https://it.linkedin.com/in/davide-esposito-438116161",
     "company url": "https://www.iit.it/web/unit-for-visually-impaired-people"
   },
-  "files": [
-	"Samples~",
-	"Documentation~"
-  ],
   "samples": [
 	{
 		"displayName": "SALLO_UXF",
 		"description": "working example of how to run a desktop experiment using SALLO and UXF. See https://github.com/immersivecognition/unity-experiment-framework for more details about UXF.",
-		"path": "Samples/SALLO_UXF"
+		"path": "Samples~/SALLO_UXF"
 	}
+  ],
+    "files": [
+	"Samples~",
+	"Documentation~"
   ]
 }
