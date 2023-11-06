@@ -21,11 +21,28 @@ Therefore, SALLO includes template game objects and base components that cover e
 
 Import SALLO in your project using [Unity's Package Manager](https://docs.unity3d.com/Manual/Packages.html).
 
+### Install directly from github
 In your open Unity project:
 1. Go to `Window` > `Package Manager`.
-2. Click on the add (+) button, choosing the git url option.
+2. Click on the add (+) button, choosing the `Add package from git URL` option.
 3. copypaste the git url to this repository and click import
 4. You're all set! You can now start using the SALLO tools in your Unity project.
+
+### install from local folder
+currently, there are some issues with importing SALLO from git URL, as the package manifest meta file (package.json.meta) may not be imported. As an alternative, you can import it as a local folder.
+
+To do so, put the content of this repository in your Unity project folder /Packages in _one of the following ways_:
+1. Downloading and extract this repo in it
+2. Initialize a git folder in it and pull this repo in it.
+
+Then, in your open Unity project:
+1. Go to `Window` > `Package Manager`.
+2. Click on the add (+) button, choosing the `Add package from disk` option.
+3. select the package.json file of this repo
+4. You're all set! You can now start using the SALLO tools in your Unity project.
+
+#### Python for Unity
+The QUEST implementated in SALLO requires the [Python for Unity](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/index.html) package, which in turn requires python 2.7. If you want to use the QUEST algorithm, make sure to have it installed on your machine and added to your path. Check the Python for Unity installation guide for additional info.
 
 ## Getting Started
 
