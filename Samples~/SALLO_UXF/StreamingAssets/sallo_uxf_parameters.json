@@ -12,7 +12,7 @@
 "grain": 1.5,
 "checkConvergence": false,
 "addNoise": true,
-"testing_trials": [10],
+"testing_trials": [5],
 "time_on": 0.3,
 "time_off": 0.3,
 "time_ITI": 0.8
