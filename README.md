@@ -1,7 +1,7 @@
 # Suite for the Assessment of Low Level cues on Orientation (SALLO) Unity Package
 
 <p align="center">
-  <img src="media/sallo_logo.png">
+  <img src="media~/sallo_logo.png">
 </p>
 
 Welcome to the Suite for the Assessment of Low Level cues on Orientation (SALLO) Unity Package. SALLO is a comprehensive suite of tools designed to simplify the development of psychophysical experiments focused on spatial orientation in Unity projects.
