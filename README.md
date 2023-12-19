@@ -19,18 +19,10 @@ Therefore, SALLO includes template game objects and base components that cover e
 
 ## Installation
 
-Import SALLO in your project using [Unity's Package Manager](https://docs.unity3d.com/Manual/Packages.html).
-
-### Install directly from github
-In your open Unity project:
-1. Go to `Window` > `Package Manager`.
-2. Click on the add (+) button, choosing the `Add package from git URL` option.
-3. copypaste the git url to this repository and click import
-4. You're all set! You can now start using the SALLO tools in your Unity project.
+Import SALLO in your project using [`Unity's Package Manager`](https://docs.unity3d.com/Manual/Packages.html).
+With `Unity's package manager` you can install packages directly from a remote repository or download the packages and install them from the local folder. Currently, there are some issues with importing SALLO from git URL, as the package manifest meta file (package.json.meta) do not get imported. Therefore, **we recommend the installation from local folder**.
 
 ### install from local folder
-currently, there are some issues with importing SALLO from git URL, as the package manifest meta file (package.json.meta) may not be imported. As an alternative, you can import it as a local folder.
-
 To do so, put the content of this repository in your Unity project folder /Packages in _one of the following ways_:
 1. Downloading and extract this repo in it
 2. Initialize a git folder in it and pull this repo in it.
@@ -41,14 +33,22 @@ Then, in your open Unity project:
 3. select the package.json file of this repo
 4. You're all set! You can now start using the SALLO tools in your Unity project.
 
+### Install directly from github
+In your open Unity project:
+1. Go to `Window` > `Package Manager`.
+2. Click on the add (+) button, choosing the `Add package from git URL` option.
+3. copypaste the git url to this repository and click import
+4. You're all set! You can now start using the SALLO tools in your Unity project.
+
+
 #### Python for Unity
-The QUEST implementated in SALLO requires the [Python for Unity](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/index.html) package, which in turn requires python 2.7. If you want to use the QUEST algorithm, make sure to have it installed on your machine and added to your path. Check the Python for Unity installation guide for additional info.
+The QUEST implemented in SALLO requires the [Python for Unity](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/index.html) package, which in turn requires python 2.7. If you want to use the QUEST algorithm, make sure to have it installed on your machine and added to your path. Check the Python for Unity installation guide for additional info.
 
 ## Getting Started
 
 SALLO contains a sample experiment to get you started quickly. The sample experiment requires the [Unity Experiment Framework](https://immersivecognition.com/unity-experiment-framework/). You can install it from their github page, or you can import the unitypackage file of the UXF version provided within the SALLO sample experiment folder.
 
-For more detailed instructions and examples, please refer to the SALLO paper (incoming) and to the [SALLO API Documentation](https://davidespot.github.io/SALLO).
+For more detailed instructions and examples, please refer to the [SALLO research paper](https://doi.org/10.3758/s13428-023-02265-4) and to the [SALLO API Documentation](https://davidespot.github.io/SALLO).
 
 ## Contributing
 
@@ -72,6 +72,6 @@ Designed and maintained by Davide Esposito (https://www.linkedin.com/in/davide-e
 ---
 
 *Please acknowledge this project if you use it for academic or research purposes by citing:*
->incoming
+>Esposito, D., Bollini, A. & Gori, M. The Suite for the Assessment of Low-Level cues on Orientation (SALLO): The psychophysics of spatial orientation in virtual reality. Behav Res (2023). https://doi.org/10.3758/s13428-023-02265-4
 
 ---
