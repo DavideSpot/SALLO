@@ -42,7 +42,7 @@ In your open Unity project:
 
 
 #### Python for Unity
-The QUEST implemented in SALLO requires the [Python for Unity](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/index.html) package, which in turn requires python 2.7. If you want to use the QUEST algorithm, make sure to have it installed on your machine and added to your path. Check the Python for Unity installation guide for additional info.
+The QUEST implemented in SALLO requires the [Python for Unity](https://docs.unity3d.com/Packages/com.unity.scripting.python@2.1/manual/index.html) package, which in turn requires python 2.7. If you want to use the QUEST algorithm, make sure to have it installed on your machine and added to your path, together with all the necessary additional python packages used in the python scripts (e.g. the QUEST in SALLO requires the python packages `numpy` and `typing`). Check the Python for Unity installation guide for additional info.
 
 ## Getting Started
 
